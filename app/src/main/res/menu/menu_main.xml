@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/secure_connect_scan"
+        android:icon="@mipmap/ic_action_device_access_bluetooth_searching"
+        android:title="connect device"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/discoverable"
+        app:showAsAction="never"
+        android:title="Make discoverable"
+        />
+
+</menu>
